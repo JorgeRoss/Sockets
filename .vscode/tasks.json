@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "Server/",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - Server",
+			"detail": "tsc"
+		},
+		{
+			"type": "typescript",
+			"tsconfig": "Server/tsconfig.json",
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build",
+			"label": "TSC"
+		}
+	]
+}
